@@ -1,0 +1,32 @@
+body{
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    min-width: 400px;
+}
+button, input{
+    box-sizing: border-box;
+    padding-right: 10px;
+    padding-left: 10px;
+    background-color: white;
+    color: black;
+    font-weight: bolder;
+    border: none;
+    margin-top: 10px;
+    font-size: medium;
+    width: -webkit-fill-available;
+    text-align: center;
+    height: 50px;
+    transition: 1s;
+}
+button:active, input:active{
+    background-color: goldenrod;
+}
+button:hover{
+    background-color: goldenrod;
+}
+a{
+    color: white;
+}

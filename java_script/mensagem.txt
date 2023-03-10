@@ -1,0 +1,25 @@
+To become a developer who codes inside the Yii environment, here is a list of knowledge that one must have:
+
+Programming fundamentals: Before starting with Yii, one must have a strong foundation in programming concepts, data structures, and algorithms. One should be familiar with at least one programming language, such as PHP, and know how to write simple programs and scripts.
+
+PHP: Yii is written in PHP, so one must have a good understanding of PHP programming concepts, syntax, and functions.
+
+Object-oriented programming: Yii is built using object-oriented programming (OOP) principles, so it is essential to have a good understanding of OOP concepts such as classes, objects, inheritance, polymorphism, and encapsulation.
+
+Web development: Yii is a web application framework, so one must be familiar with web development concepts such as HTTP, HTML, CSS, JavaScript, and jQuery.
+
+Database design and SQL: Yii provides support for multiple databases, so one must have a good understanding of database design principles and SQL.
+
+Model-View-Controller (MVC) architecture: Yii follows the MVC architecture pattern, so one must have a good understanding of the MVC design pattern and how it is implemented in Yii.
+
+Yii framework: To work with Yii, one must have a good understanding of Yii framework concepts, such as application structure, configuration, routing, controllers, views, models, forms, validation, security, and caching.
+
+Third-party libraries: Yii provides integration with third-party libraries, such as jQuery, Bootstrap, and SwiftMailer, so one must have a good understanding of these libraries and how to use them in Yii applications.
+
+Testing: Yii provides support for testing, so one must have a good understanding of testing concepts and how to write tests for Yii applications.
+
+Source control: To work effectively in a team environment, one must have a good understanding of source control concepts and tools, such as Git.
+
+Debugging: Debugging is an essential skill for any developer, and one must have a good understanding of debugging concepts and tools, such as Xdebug.
+
+This list is not exhaustive, and there may be additional skills or knowledge required depending on the specific project or application that one is working on.

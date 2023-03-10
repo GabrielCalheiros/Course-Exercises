@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<head>
+<title>Calculator</title>
+<link rel="stylesheet" href="./14.calculator.css">
+</head>
+<body>
+      <!-- Operação -->
+
+    <!-- Display -->
+    <h2><p>Operação:</p></h2>
+    <div class="display">
+      <div class="operation"><p id="operation_symbol">+</p></div>
+      <div class="first_number"><input type="number" class="number_input" value="0" id="number1"></div>
+      <div class="second_number"><input type="number" class="number_input" value="0" id="number2"></div>
+      <div class="result"><p id="result">0</p></div>
+      <div class="equals"><p>=</p></div>
+    </div>
+ 
+
+  <!-- Tabela das Operações -->
+  <div class="operações">
+    <div class="soma" onclick="operação(1)"><p>+</p></div>
+    <div class="subtração" onclick="operação(2)"><p>-</p></div>
+    <div class="multiplicação" onclick="operação(3)"><p>*</p></div>
+    <div class="divisão" onclick="operação(4)"><p>/</p></div>
+  </div><br>
+
+  <div class="enter_clear">
+    <div class="enter"><button onclick="enter()">Enter</button></div>
+    <div class="clear"><button onclick="clearS()">Clear</button></div>
+  </div>
+
+  
+  <script src="14.calculator.js"></script>
+</body>
+
+

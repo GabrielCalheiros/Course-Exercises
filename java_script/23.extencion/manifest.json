@@ -1,0 +1,12 @@
+{
+    "manifest_version": 3,
+    "version": "1.0",
+    "name": "23.extencion",
+    "action":{
+        "default_popup": "23.extencion.html",
+        "default_icon": "23.extencion.png"
+    },
+    "permissions":[
+        "tabs"
+    ]
+}

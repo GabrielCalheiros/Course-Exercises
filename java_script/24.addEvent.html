@@ -1,0 +1,20 @@
+<html>
+    <head>
+        <title>Add Event</title>
+    </head>
+
+    <body>
+        <button id="eventButton">
+            Click and check the console
+        </button>
+
+        <script>
+            let buttonEvent = document.getElementById("eventButton");
+
+            buttonEvent.addEventListener("click",function(){
+                console.log("Event added!");
+            })
+        </script>
+
+    </body>
+</html>

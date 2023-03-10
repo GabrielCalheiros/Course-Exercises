@@ -1,0 +1,43 @@
+body{
+    background-image: url("./9.passanger_counter.jpg");
+    background-size: cover;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 25%;
+    color: aliceblue;
+}
+
+h1{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 50px;
+}
+
+button{
+    border: none;
+    padding-top: 10px;
+    color:aliceblue;
+    background-color: black;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    transition: 0.5s;
+    width: 10vw;
+    height: 5vw;
+}
+
+button:active{
+    background-color: goldenrod;
+}
+
+button:hover{
+transform: scale(1.07);
+}
+
+.numbers div{
+    height: 5vw;
+}

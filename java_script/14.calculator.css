@@ -1,0 +1,114 @@
+body{
+    background: black;
+    margin-left: 35vw;
+    width: 30vw;
+    background-size: cover;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: center;
+    color: aliceblue;
+}
+.display div{
+    color:rgb(255, 255, 255) !important;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    width: -webkit-fill-available;
+    height: 5vw;
+    border: none;
+    padding-top: 10px;
+    vertical-align: middle;
+    font-size: xx-large;
+    display: inline-block;
+    position:relative;
+}
+.number_input{
+    color: rgb(255, 255, 255) !important;
+    height: 4vw;
+    width: 5vw;
+    text-align: center;
+    font-size: xx-large;
+    background-color: rgb(66, 66, 66) !important;
+}
+
+button, .operações div{
+    color:black !important;
+    background-color: white !important;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    margin: 0.5vw;
+    width: -webkit-fill-available;
+    height: 5vw;
+    border: none;
+    padding-top: 10px;
+    vertical-align: middle;
+    font-size: xx-large;
+
+
+    display: inline-block;
+    position:relative;
+
+
+}
+
+button:active, .operações div:active{
+    background-color: goldenrod !important;
+    color: white !important;
+}
+
+button:hover, .operações div:hover{
+transform: scale(1.07);
+}
+
+
+  .operações {  display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 0% 0%;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "soma subtração multiplicação divisão";
+  }
+  
+  .soma { grid-area: soma; }
+  
+  .subtração { grid-area: subtração; }
+  
+  .multiplicação { grid-area: multiplicação; }
+  
+  .divisão { grid-area: divisão; }
+  
+
+  .enter_clear {  display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 0% 0%;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "enter clear";
+  }
+  
+  .enter { grid-area: enter; }
+  
+  .clear { grid-area: clear; }
+  
+
+
+  .display {  display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 0% 0%;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "first_number operation second_number equals result";
+  }
+  
+  .operation { grid-area: operation; }
+  
+  .first_number { grid-area: first_number; }
+  
+  .second_number { grid-area: second_number; }
+  
+  .result { grid-area: result; }
+  
+  .equals { grid-area: equals; }
+  
