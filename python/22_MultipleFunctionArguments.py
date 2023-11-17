@@ -15,4 +15,6 @@ def bar(first, second, third, **options):
         return first # Return the first number
 
 result = bar(1, 2, 3, action = "sum", number = "first") # Call the function
+
 print("Result: %d" %(result)) # Print the result
+
